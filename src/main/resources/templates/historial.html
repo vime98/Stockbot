@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Historial de Precios</title>
+    </head>
+    <body>
+        <h1>Historial de Precios</h1>
+        <table>
+            <tr>
+                <th>Acción</th>
+                <th>Precio</th>
+            </tr>
+            <tr th:each="row : ${historial}">
+                <td th:text="${row[0]}"></td>
+                <td th:text="${row[1]}"></td>
+            </tr>
+        </table>
+        <a href="/">Volver a la página principal</a>
+    </body>
+</html>
