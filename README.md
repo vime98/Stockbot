@@ -18,14 +18,14 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
    git clone https://github.com/vime98/Stockbot
 Navega al directorio del proyecto:
 
-shell
-Copy code
-cd consulta-acciones-spring
+   ```shell
+   cd consulta-acciones-spring
+   ```
 Ejecuta la aplicación con Maven:
 
-shell
-Copy code
-mvn spring-boot:run
+   ```shell
+   mvn spring-boot:run
+   ```
 La aplicación estará disponible en http://localhost:8080/. Puedes acceder a ella desde tu navegador web.
 
 Uso
